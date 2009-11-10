@@ -1,6 +1,6 @@
 import grails.test.*
 
-class ModelControllerTests extends ControllerUnitTestCase {
+class AncestryControllerTests extends ControllerUnitTestCase {
     protected void setUp() {
         super.setUp()
     }
