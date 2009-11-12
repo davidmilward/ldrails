@@ -13,7 +13,7 @@ class AncestryController {
 	def index = {
 		redirect(uri: "/")
 	}
-	
+		
 	// Establish an HTTP URI for a real world model
     def realworldmodel = {
 		if (params.id) {
@@ -36,6 +36,11 @@ class AncestryController {
 			response.outputStream.flush()
 		}
     }
+
+	def realworldclass = {
+		// Redirect to the Real World Model URI
+		redirect(action: 'realworldmodel')
+	}
 
 	// Produce an RDF representation of the model
 	def about = {
