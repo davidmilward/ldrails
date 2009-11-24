@@ -99,7 +99,7 @@
 
     // Begin Linked Data scaffold extensions
 	
-	// Establish an HTTP URI for a real world class
+    // Establish an HTTP URI for a real world class
     def realworldclass = {
 		def url
 		withFormat {
