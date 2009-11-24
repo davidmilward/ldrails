@@ -18,7 +18,7 @@ class Person {
 	Person hasFather
 
 	static constraints = {
-		name(blank: false)
+		name()
 		birthDate()
 		hasMother(nullable: true)
 		hasFather(nullable: true)
